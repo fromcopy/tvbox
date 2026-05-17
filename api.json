@@ -160,20 +160,6 @@
         },
 
         {
-            "key": "小鹿",
-            "name": "小鹿｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://xiaolu.pwwhu.cn",
-                "dataKey": "x5Bep6Q78VCeYnPS",
-                "dataIv": "x5Bep6Q78VCeYnPS"
-            }
-        },
-
-        {
             "key": "独播影视",
             "name": "独播｜影视",
             "type": 3,
