@@ -1,2 +1,2 @@
-来自于
+来自
 https://github.com/PizazzGY/NewTVBox
