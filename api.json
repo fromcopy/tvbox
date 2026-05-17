@@ -10,7 +10,7 @@
             "api": "csp_Douban",
             "searchable": 0
         },
-
+ 
         {
             "key": "热播影视",
             "name": "热播｜APP",
@@ -47,6 +47,22 @@
             }
         },
         {
+            "key": "橙子99",
+            "name": "橙子丨APP",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://113.31.180.218:19987/app/bn",
+                "LoginPath": "/app/log",
+                "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
+                "versionName": "4.3.1",
+                "name": "小橙子",
+                "package": "com.xchengzix.app",
+                "buildNumber": "2001",
+                "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
+            }
+        },
+        {
             "key": "追番99",
             "name": "追番｜APP",
             "type": 3,
@@ -63,7 +79,21 @@
             }
         },
 
-
+        {
+            "key": "剧圈99",
+            "name": "剧圈丨APP",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://124.221.3.182:19987/app/bn",
+                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
+                "versionName": "1.2.0",
+                "name": "剧圈圈",
+                "package": "com.qingtangxiaozhuan.xyz",
+                "buildNumber": "2002",
+                "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
+            }
+        },
         {
             "key": "双星99",
             "name": "双星丨APP",
@@ -96,7 +126,6 @@
                 "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
             }
         },
-
 
         {
             "key": "首发",
@@ -145,48 +174,34 @@
         },
 
         {
-            "key": "甜圈短剧",
-            "name": "甜圈｜短剧",
-            "type": 3,
-            "api": "csp_TianquanDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-
-        {
             "key": "独播影视",
             "name": "独播｜影视",
             "type": 3,
             "api": "csp_Duboku"
         },
- 
+
         {
             "key": "金牌影视",
-            "name": "金牌｜影视",
+            "name": "金牌2｜影视",
             "type": 3,
             "api": "csp_Jpys",
             "ext": "https://m.610pkea.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
-   
+    
+        {
+            "key": "瓜子影视",
+            "name": "瓜子｜影视",
+            "type": 3,
+            "api": "csp_Gz360"
+        },
+      
         {
             "key": "农民影视",
             "name": "农民｜影视",
             "type": 3,
             "api": "csp_Wwys",
             "ext": "https://vip.wwgz.cn:5200"
-        },
-   
-        {
-            "key": "永乐影视",
-            "name": "永乐｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/永乐影视.json"
         }
-
     ],
     "lives": [
         {}
@@ -330,6 +345,8 @@
                 "裸聊",
                 "新片首发",
                 "UUE29"
+                "葡金"
+				"澳门"
             ]
         },
         {
@@ -595,7 +612,8 @@
         }
     ],
     "ads": [
-        "mimg.0c1q0l.cn",
+        "static-mozai.4gtv.tv",
+		"mimg.0c1q0l.cn",
         "www.googletagmanager.com",
         "www.google-analytics.com",
         "mc.usihnbcq.cn",
@@ -653,7 +671,6 @@
         "cms.qdwght.com",
         "wan.51img1.com",
         "iqiyi.hbuioo.com",
-        "vip.ffzyad.com",
-        "static-mozai.4gtv.tv"
+        "vip.ffzyad.com"
     ]
 }
